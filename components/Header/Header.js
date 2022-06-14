@@ -10,9 +10,12 @@ export default function Home() {
   return (
     <>
       <div className="header-container">
-      
+
         <div className="sub-header-container">
-     
+          <div className="d-1">
+            <BulkAction />
+            <button>Apply</button>
+          </div>
           <div className="d-2">
             <input
               placeholder="Booking Id"
@@ -40,17 +43,18 @@ export default function Home() {
       <style jsx>{`
         .sub-header-container {
           display: flex;
-          justify-content: center;
+          justify-content: space-around;
           background-color: peach;
-          margin-bottom: 3rem;
-          margin-top:4rem;
-        
+          margin-bottom: 6rem;
+          margin-top: 7rem;
+          padding:0rem 3rem;
+         
         }
 
         .d-1 {
           display: flex;
           width: 19%;
-          justify-content: center;
+          justify-content: space-between;
         }
 
         .d-1 button {

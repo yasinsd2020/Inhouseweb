@@ -49,7 +49,7 @@ export default function Actions() {
 
   return (
     <div>
-        <h4>Actions</h4>
+       
       <FormControl sx={{  width: 100 }}>
         <Select
           
