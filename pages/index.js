@@ -3,21 +3,23 @@ import Header from "../components/Header/Header";
 import SubContainerHeader from "../components/TableHeader/subContainerHeader";
 import MainTable from "../components/mainTable/mainTable";
 import PaginationComp from "../components/Paginations/PaginationComp";
-import DashGrid from "../components/dashGrid/DashGrid";
-import RecentBooking from "../components/ChartBar/RecentBooking"
+
+
+import AdminDash from "../components/adminDashboard/AdminDash";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
       <div className="container" >
-        <div className="sub-container" style={{}}>
-          <Header />
+      <Navbar />
+        <div className="sub-container" style={{backgroundColor:'#ecf7fc'}}>
+          {/* <Header />
           <SubContainerHeader />
           <MainTable />
-          <PaginationComp/>
-          <DashGrid/>
-          <RecentBooking/>
+          <PaginationComp/> */}
+         
+          <AdminDash/>
+
         </div>
       </div>
     </>

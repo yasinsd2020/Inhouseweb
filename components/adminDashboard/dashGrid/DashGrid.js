@@ -7,7 +7,7 @@ const DashGrid = () => {
 
   return (
     <>
-      <div className="main-dash-grid-container">
+      <div className="main-dash-grid-container" style={{marginBottom:'2rem'}}>
           <div className="dash-grid-heading" style={{width:"100%", height:"100px", display:"flex", justifyContent:"center", alignItems:"center"}}>
               <h1 style={{fontWeight:'500'}}>Welcome to Hourlyrooms!</h1>
           </div>
@@ -107,7 +107,7 @@ const DashGrid = () => {
                           <RedeemIcon style={{width:'50px',height:'50px', color:'white'}}/>
                       </div>
                   </div>
-                  <div className="dash-grid-content" style={{display:"flex", justifyContent:"space-between", alignItems:"center", backgroundColor:"#f06292", color:"white"}}>
+                  <div className="dash-grid-content" style={{display:"flex", justifyContent:"space-between", alignItems:"center", backgroundColor:"#f06292", color:"white" }}>
                   <div className="dash-grid-text">
                           <p>CURRENT MONTH ACTUAL REVENUE</p>
                           <h2>₹1,695,106</h2>
@@ -117,7 +117,7 @@ const DashGrid = () => {
                           <RedeemIcon style={{width:'50px',height:'50px', color:'white'}}/>
                       </div>
                   </div>
-                  <div className="dash-grid-content" style={{display:"flex", justifyContent:"space-between", alignItems:"center", backgroundColor:"#f06292", color:"white"}}>
+                  <div className="dash-grid-content " style={{display:"flex", justifyContent:"space-between", alignItems:"center", backgroundColor:"#f06292", color:"white"}}>
                   <div className="dash-grid-text">
                           <p>CURRENT MONTH  ACTUAL EARNING</p>
                           <h2>₹327,537</h2>
@@ -158,7 +158,9 @@ const DashGrid = () => {
         border-radius: 3px;
         padding:5.5rem 1rem;
         box-shadow: 0 2px 5px rgba(0,0,0,0.25), 0 2px 5px rgba(0,0,0,0.22);
+        font-size:17px
     }
+    
     .dash-grid-icon-green{
       
         border-radius: 2rem;

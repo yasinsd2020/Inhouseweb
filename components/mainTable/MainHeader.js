@@ -19,11 +19,11 @@ const MainHeader = () => {
             </table> */}
 
             <div className='main-table-header'>
-                <h4>ID</h4>
-                <h4>ID</h4>
-                <h4>ID</h4>
-                <h4>ID</h4>
-                <h4>ID</h4>
+                <h4>Service</h4>
+                <h4>Booking Information</h4>
+                <h4>Vendor Remark	</h4>
+                <h4>Customer Remark	</h4>
+                <h4>Actions</h4>
             </div>
 
 

@@ -1,14 +1,17 @@
 import BookingInfo from "./BookingInfo";
 import VendorRemark from "./VendorRemark";
 import CustomerRemark from "./CustomerRemark";
+import Action from "./Action"
 import Services from "./Services";
 import { padding } from "@mui/system";
+import MainHeader from "./MainHeader";
 
 const MainTable = () => {
   return (
     <>
       <div className="main-container">
         <div className="table-headers">
+          {/* <MainHeader/> */}
           <hr />
         </div>
         <div
@@ -30,9 +33,9 @@ const MainTable = () => {
           <VendorRemark />
           </td>
           <CustomerRemark />
-         
-          <Action/>
-
+          <td style={{borderLeft:'1px solid black' , paddingLeft:'1.5rem'}}>
+          <Action />
+          </td>
             
 
      

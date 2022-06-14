@@ -1,14 +1,17 @@
-import Calendar from "react-calendar";
+
 import { useState } from "react";
 import { Bar, defaults } from "react-chartjs-2";
 import { ArcElement } from "chart.js";
 Chart.register(ArcElement);
 import Chart from "chart.js/auto";
-import 'react-calendar/dist/Calendar.css';
+
 
 const BarChart = () => {
   return (
-    <div className="main-chart-container" style={{width:"100%", margin:"50px 0" }}>
+    <div className="main-chart-container" style={{width:"45%",height:'50%', margin:'0 -.4rem',
+    boxShadow:' 0 2px 5px rgba(0,0,0,0.25), 0 2px 5px rgba(0,0,0,0.22)'
+    , background: "#ffffff"
+    }}>
 
       <div
         className="chart-container"
@@ -39,14 +42,16 @@ const BarChart = () => {
         <div
           className="sub-chart-container"
           style={{
-              width:"100%",
+           
               display: "flex",
               justifyContent: "flex-start",
               alignItems: "center",
-              width: "60%",
+              width: "600px",
               height: "auto",
+              padding:'.5rem .5rem'
             }}
             >
+                    <p style={{textAlign:'center' ,fontWeight:'500' ,transform:'rotate(-90deg)'}}>Currency:inr</p>
           <Bar
             data={{
                 labels: ["January", "February", "March", "April", "May", "June", "July", "September", "October","November", "December"],
@@ -91,7 +96,7 @@ const BarChart = () => {
             },
         ],
     }}
-    height={400}
+    height={500}
     width={600}
     options={{
         maintainAspectRatio: false,
@@ -112,8 +117,10 @@ const BarChart = () => {
         },
     }}
     />
+
         </div>
       </div>
+      <p style={{textAlign:'center' ,fontWeight:'500'}}>TimeLine</p>
     </div>
     </div>
   );

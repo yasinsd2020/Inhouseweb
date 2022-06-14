@@ -47,4 +47,13 @@ p{
   textarea{
     width:100px;
   }
+
+  .admin{
+    flex-direction: column;
+  }
+
+  p ,h2{
+    font-size: 14px;
+  }
+
 }

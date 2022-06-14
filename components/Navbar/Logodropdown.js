@@ -15,9 +15,8 @@ export default function Logodropdown() {
             Hourly Rooms
           </Button>
           <Menu {...bindMenu(popupState)}  >
-            <MenuItem onClick={popupState.close}>Profile</MenuItem>
-            <MenuItem onClick={popupState.close}>My account</MenuItem>
-            <MenuItem onClick={popupState.close}>Logout</MenuItem>
+           
+            <MenuItem onClick={popupState.close} style={{width:'180px',}}>Logout</MenuItem>
           </Menu>
         </>
       )}
