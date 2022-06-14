@@ -11,8 +11,8 @@ const MainTable = () => {
     <>
       <div className="main-container">
         <div className="table-headers">
-          {/* <MainHeader/> */}
-          <hr />
+          <MainHeader/>
+        
         </div>
         <div
           className="content" >
@@ -26,14 +26,163 @@ const MainTable = () => {
           </div>
         </td> 
           <Services />
-          <td style={{borderRight:'1px solid black', paddingRight:'1rem'} }>
+          <td style={{borderRight:'1px solid black', paddingRight:'1.5rem'} }>
           <BookingInfo />
           </td>
-          <td style={{borderRight:'1px solid black' , paddingRight:'1.5rem'}}>
+          <td style={{borderRight:'1px solid black' , paddingRight:'2.5rem'}}>
           <VendorRemark />
           </td>
+          <td style={{paddingRight:'1rem'}}>
           <CustomerRemark />
-          <td style={{borderLeft:'1px solid black' , paddingLeft:'1.5rem'}}>
+          </td>
+          <td style={{borderLeft:'1px solid black' , paddingLeft:'1rem'}}>
+          <Action />
+          </td>
+            
+
+     
+      
+        </div>
+
+
+        <div
+          className="content" >
+        
+            <td style={{borderRight:'1px solid black', paddingRight:'1rem'}}>
+          <div
+            className="booking-id"
+            
+          >
+            <p>Dummy Id</p>
+          </div>
+        </td> 
+          <Services />
+          <td style={{borderRight:'1px solid black', paddingRight:'1.5rem'} }>
+          <BookingInfo />
+          </td>
+          <td style={{borderRight:'1px solid black' , paddingRight:'2.5rem'}}>
+          <VendorRemark />
+          </td>
+          <td style={{paddingRight:'1rem'}}>
+          <CustomerRemark />
+          </td>
+          <td style={{borderLeft:'1px solid black' , paddingLeft:'1rem'}}>
+          <Action />
+          </td>
+            
+
+     
+      
+        </div>
+        <div
+          className="content" >
+        
+            <td style={{borderRight:'1px solid black', paddingRight:'1rem'}}>
+          <div
+            className="booking-id"
+            
+          >
+            <p>Dummy Id</p>
+          </div>
+        </td> 
+          <Services />
+          <td style={{borderRight:'1px solid black', paddingRight:'1.5rem'} }>
+          <BookingInfo />
+          </td>
+          <td style={{borderRight:'1px solid black' , paddingRight:'2.5rem'}}>
+          <VendorRemark />
+          </td>
+          <td style={{paddingRight:'1rem'}}>
+          <CustomerRemark />
+          </td>
+          <td style={{borderLeft:'1px solid black' , paddingLeft:'1rem'}}>
+          <Action />
+          </td>
+            
+
+     
+      
+        </div>
+        <div
+          className="content" >
+        
+            <td style={{borderRight:'1px solid black', paddingRight:'1rem'}}>
+          <div
+            className="booking-id"
+            
+          >
+            <p>Dummy Id</p>
+          </div>
+        </td> 
+          <Services />
+          <td style={{borderRight:'1px solid black', paddingRight:'1.5rem'} }>
+          <BookingInfo />
+          </td>
+          <td style={{borderRight:'1px solid black' , paddingRight:'2.5rem'}}>
+          <VendorRemark />
+          </td>
+          <td style={{paddingRight:'1rem'}}>
+          <CustomerRemark />
+          </td>
+          <td style={{borderLeft:'1px solid black' , paddingLeft:'1rem'}}>
+          <Action />
+          </td>
+            
+
+     
+      
+        </div>
+        <div
+          className="content" >
+        
+            <td style={{borderRight:'1px solid black', paddingRight:'1rem'}}>
+          <div
+            className="booking-id"
+            
+          >
+            <p>Dummy Id</p>
+          </div>
+        </td> 
+          <Services />
+          <td style={{borderRight:'1px solid black', paddingRight:'1.5rem'} }>
+          <BookingInfo />
+          </td>
+          <td style={{borderRight:'1px solid black' , paddingRight:'2.5rem'}}>
+          <VendorRemark />
+          </td>
+          <td style={{paddingRight:'1rem'}}>
+          <CustomerRemark />
+          </td>
+          <td style={{borderLeft:'1px solid black' , paddingLeft:'1rem'}}>
+          <Action />
+          </td>
+            
+
+     
+      
+        </div>
+        <div
+          className="content" >
+        
+            <td style={{borderRight:'1px solid black', paddingRight:'1rem'}}>
+          <div
+            className="booking-id"
+            
+          >
+            <p>Dummy Id</p>
+          </div>
+        </td> 
+          <Services />
+          <td style={{borderRight:'1px solid black', paddingRight:'1.5rem'} }>
+          <BookingInfo />
+          </td>
+          <td style={{borderRight:'1px solid black' , paddingRight:'2.5rem'}}>
+          <VendorRemark />
+          </td>
+          <td style={{paddingRight:'1rem'}}>
+          <CustomerRemark />
+          </td>
+          <td style={{borderLeft:'1px solid black' , paddingLeft:'1rem'}}>
           <Action />
           </td>
             
@@ -54,12 +203,14 @@ const MainTable = () => {
             justify-content: center;
             align-items: center;
             border-radius: 3px;
+      
+       
           }
 
           .content{
             display:flex;
             width:90%;
-            justify-content:space-evenly;
+            justify-content:space-between;
             
             background-color: #f5f5f5;
             box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);

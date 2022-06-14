@@ -6,7 +6,7 @@ import Processing from "./Processing";
 const BookingInfo = () => {
  
  return (
-    <div className="booking-info-content" style={{display:"flex", flexDirection:"column",}}>
+    <div className="booking-info-content" style={{display:"flex", flexDirection:"column", width:'200px'}}>
     <div className="payment-method">
         <h4 style={{ margin:0}}>Payment Method</h4>
         <p>Offline Payment</p>
@@ -18,14 +18,14 @@ const BookingInfo = () => {
         <p><Processing/></p>
         <hr />
     </div>
-    <div className="Created">
+    <div className="Created"  style={{width:'200px'}}>
         <h4 style={{ margin:0}}>Created At</h4>
-        <p>Dummy Date</p>
+        <p style={{wordWrap: 'break-word'}}>Dummy Date</p>
         <hr />
     </div>
-    <div className="checkin-time" style={{width:'250px'}}>
+    <div className="checkin-time" style={{width:'200px'}}>
         <h4 style={{ margin:0}}>Check-In Date, Time and<br></br> Duration</h4>
-        <p>Dummy Date and time</p>
+        <p style={{wordWrap: 'break-word'}}>Dummy Date and timeashdjjjjjjjjhasjdddddddddddd</p>
         <hr />
     </div>
     <div className="booking-via-app" >

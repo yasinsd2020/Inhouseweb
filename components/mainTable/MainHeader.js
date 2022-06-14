@@ -19,6 +19,7 @@ const MainHeader = () => {
             </table> */}
 
             <div className='main-table-header'>
+              <h4>Id</h4>
                 <h4>Service</h4>
                 <h4>Booking Information</h4>
                 <h4>Vendor Remark	</h4>
@@ -32,10 +33,10 @@ const MainHeader = () => {
 
 {`
 .main-table-header{
-    width:100%;
+  width:100vw;
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items:center;
 }
 `}

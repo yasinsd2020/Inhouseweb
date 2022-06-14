@@ -5,10 +5,15 @@ import React from 'react'
 
 const CustomerRemark = () => {
     return (
-        <div className="customer-remark">
+        <div className="customer-remark" style={{ width:'200px'}}>
 
             <div className="customer-remark-1">
-                <p>Wahid, dummy date and time</p>
+                <div style={{width:'150px'}}>
+                <p style={{wordWrap: 'break-word'}}>Wahid, dummy date and time
+                Kisan 2022-06-14 14:56:07adasjdnasjkdnasjkdnsajkdnsjkdsjldsldsjldbsjkldbslaaaaaaaaaaaa
+                qwqjhejifhdjofwdjfbwdjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjfbwkfnffnsdfnsdfndofndfndfndfndlorem
+                </p>
+                </div>
                 <p>Remark 1</p>
                 <textarea name="" id="" cols="20" rows="3" style={{ resize: "vertical", padding: ".5rem", fontSize: "16px" }}></textarea>
             </div>

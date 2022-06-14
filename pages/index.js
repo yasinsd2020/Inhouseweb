@@ -13,10 +13,10 @@ export default function Home() {
       <div className="container" >
       <Navbar />
         <div className="sub-container" style={{backgroundColor:'#ecf7fc'}}>
-          {/* <Header />
+          <Header />
           <SubContainerHeader />
           <MainTable />
-          <PaginationComp/> */}
+          <PaginationComp/>
          
           <AdminDash/>
 

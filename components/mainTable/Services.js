@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="service-content"  >
+    <div className="service-content"  style={{width:'300px'}} >
 
         <div className="service-content-1" style={{width:'250px'}}>
             <a href="" style={{color:"#0065FF",wordWrap: 'break-word'}}>Hotel Honeymoon by Wahid</a>
@@ -13,7 +13,7 @@ const Services = () => {
         <div className="service-content-2" style={{width:'250px'}}>
             <h4>Customer Detail</h4>
             <p>Name: Yasin Shaikh</p>
-            <p  style={{ wordWrap: 'break-word'}}>Email: YasinShaikh69@gmail.comadasdhasdasbkdbask</p>
+            <p  style={{ wordWrap: 'break-word'}}>Email: YasinShaikh69@gmail.comadasdhasdaasdjkkkkkkfjkdfdjfadjlfasjkljksbkdbask</p>
             <p>Phone: 1234567890</p>
             <p>Guests: 2</p>
             <hr />
