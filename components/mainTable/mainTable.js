@@ -31,7 +31,7 @@ const MainTable = () => {
           </td>
           <CustomerRemark />
          
-          <Action/>
+          {/* <Action/> */}
 
             
 
